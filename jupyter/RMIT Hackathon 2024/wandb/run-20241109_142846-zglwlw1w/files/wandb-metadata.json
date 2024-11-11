@@ -1,0 +1,30 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "3.12.3",
+  "startedAt":  "2024-11-09T07:28:46.223983Z",
+  "program":  "d:\\workspace\\leetcode-workspace\\jupyter\\RMIT Hackathon 2024\\Challenge 3 new.ipynb",
+  "git":  {
+    "remote":  "https://github.com/CallMeQan/leetcode-workspace.git",
+    "commit":  "821c94153f25114d5f2ff6f95a5ab99be5f4f096"
+  },
+  "root":  "d:\\workspace\\leetcode-workspace\\jupyter\\RMIT Hackathon 2024",
+  "host":  "DESKTOP-384DS9V",
+  "username":  "minhq",
+  "executable":  "d:\\workspace\\leetcode-workspace\\venv\\Scripts\\python.exe",
+  "codePathLocal":  "Challenge 3 new.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "306833256448",
+      "used":  "121942360064"
+    }
+  },
+  "memory":  {
+    "total":  "16822099968"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}
