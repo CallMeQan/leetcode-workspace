@@ -4,7 +4,6 @@
         "ms-vscode.cpptools-extension-pack",
         "visualstudioexptteam.vscodeintellicode",
         "pkief.material-icon-theme",
-        "esbenp.prettier-vscode",
-        "ms-toolsai.jupyter"
+        "esbenp.prettier-vscode"
     ]
 }
