@@ -4,16 +4,6 @@ from Crypto.Cipher import AES
 
 import random, sys
 
-def mod_exp(x, n, m):
-    result = 1
-    x %= m 
-    while n > 0:
-        if n % 2 == 1:
-            result = (result * x) % m
-        x = (x * x) % m
-        n //= 2
-    return result
-
 a1 = 721919140332708275664160621428853988653441049264644517303176376909
 a2 = 762740838008948738628397951381835990843814483667554565638672490531
 
@@ -27,11 +17,7 @@ sys.set_int_max_str_digits(100000000)
 # print(a2 + k1 + k4)
 tmp = GCD(a1 + k2 + k3, a2 + k1 + k4)
 k = 2024 ** tmp - 1
-
-# b1 = mod_exp(2024, (a1 + k2 + k3), 2**256 - 1) - 1
-# b2 = mod_exp(2024, (a2 + k1 + k4), 2**256 - 1) - 1
-
-# k = GCD(b1, b2)
+#print(k)
 
 random.seed(k)
 k = random.randbytes(16)
