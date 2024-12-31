@@ -41,8 +41,8 @@ class Cleaner:
     def print(self) -> None:
         print(f"Total files deleted: {self.total_deleted_files}")
         print(f"Total space freed: {self.total_deleted_size} bytes")
-        print(f"Total space freed: {self.total_deleted_size / 1024:.2f} KB")
-        print(f"Total space freed: {self.total_deleted_size / 1024 / 1024:.2f} MB")
+        print(f"Total space freed (in KB): {self.total_deleted_size / 1024:.2f} KB")
+        print(f"Total space freed (in MB): {self.total_deleted_size / 1024 / 1024:.2f} MB")
 
 if __name__ == "__main__":
     cleaner = Cleaner()
