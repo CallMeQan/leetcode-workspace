@@ -24,3 +24,5 @@ Contributions are welcome! If you have a solution to a LeetCode problem that you
 This repository is licensed under the Unlicense License. See the [LICENSE](LICENSE) file for more details.
 
 Happy coding!
+
+*ChatGPT generated*
