@@ -13,13 +13,7 @@ continue
 HOST, PORT= '213.35.127.78', 13403
 
 def start():
-    if args.GDB:
-        return gdb.debug(elf.path, gdbscript=gdbscript)
-    if args.REMOTE:
-        return remote(HOST, PORT)
-    else:
-        return process(elf.path)
-
+    return remote(HOST, PORT)
 p = start()
 
 padding = b'a' * 32

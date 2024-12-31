@@ -1,17 +1,23 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-    int n;cin>>n;
-    int dec_value = 0;
-
-    int base = 1;
-    int tmp = n;
-    while (tmp> 0) {
-        int digit = tmp % 10;
-        tmp = tmp / 10;
-        dec_value += digit * base;
-        base = base * 2;
+    int n;
+    cin>>n;
+    if (n <= 1){
+        cout << n << " is NOT prime" << endl;
+        return 0;
     }
-    cout<<dec_value<<endl;
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0)
+            cnt++;
+    }
+
+    if (cnt > 2){
+        cout << n << " is NOT prime" << endl;
+    }
+    else{
+        cout << n << " is prime" << endl;
+    }
+    return 0;
 }
