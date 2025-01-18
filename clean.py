@@ -1,7 +1,7 @@
 import os
 import glob
 
-path_to_clean = ["cpp"]
+path_to_clean = ["cpp", "Jan 2025", "tests", "codeforces"]
 file_patterns = ["*.o", "*.exe"]
 
 """
