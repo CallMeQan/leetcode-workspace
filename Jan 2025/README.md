@@ -2,4 +2,5 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 | | | | [Day 1](./maximum-score-after-splitting-a-string.cpp) | [Day 2](./count-vowel-strings-in-ranges.cpp) | [Day 3](./number-of-ways-to-split-array.cpp) | [Day 4](./unique-length-3-palindromic-subsequences.cpp) |
 | [Day 5](./shifting-letters-ii.cpp) | [Day 6](./minimum-number-of-operations-to-move-all-balls-to-each-box.cpp) | [Day 7](./string-matching-in-an-array.cpp) | [Day 8](./count-prefix-and-suffix-pairs-i.cpp) | [Day 9](./counting-words-with-a-given-prefix.cpp) | [Day 10](./word-subsets.cpp) | [Day 11](./construct-k-palindrome-strings.cpp)|
-| [Day 12](./check-if-a-parentheses-string-can-be-valid.cpp) |  [Day 13](./minimum-length-of-string-after-operations.cpp) |
+| [Day 12](./check-if-a-parentheses-string-can-be-valid.cpp) |  [Day 13](./minimum-length-of-string-after-operations.cpp) | [Day 14](./find-the-prefix-common-array-of-two-arrays.cpp) | [Day 15](./minimize-xor.cpp) | [Day 16](./bitwise-xor-of-all-pairings.cpp) | [Day 17](./neighboring-bitwise-xor.cpp) | [Day 18](./minimum-cost-to-make-at-least-one-valid-path-in-a-grid.cpp) |
+| [Day 19](./trapping-rain-water-ii.cpp) | [Day 20](./first-completely-painted-row-or-column.cpp) | [Day 21](./grid-game.cpp) | [Day 22](./map-of-highest-peak.cpp) |
