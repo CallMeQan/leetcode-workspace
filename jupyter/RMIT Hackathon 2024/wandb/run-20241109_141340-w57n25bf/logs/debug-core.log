@@ -1,1 +1,9 @@
-C:/Users/minhq/AppData/Local/wandb/logs/core-debug-20241109_141335.log
+{"time":"2024-11-09T14:13:35.0786693+07:00","level":"INFO","msg":"started logging, with flags","port-filename":"C:\\Users\\minhq\\AppData\\Local\\Temp\\tmpmzj4x5l2\\port-3120.txt","pid":3120,"debug":false,"disable-analytics":false}
+{"time":"2024-11-09T14:13:35.0796673+07:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-11-09T14:13:35.0856511+07:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":3120}
+{"time":"2024-11-09T14:13:35.0856511+07:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":62665,"Zone":""}}
+{"time":"2024-11-09T14:13:35.1436896+07:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:62666"}
+{"time":"2024-11-09T14:13:40.1771942+07:00","level":"INFO","msg":"handleInformInit: received","streamId":"w57n25bf","id":"127.0.0.1:62666"}
+{"time":"2024-11-09T14:13:40.3031273+07:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"w57n25bf","id":"127.0.0.1:62666"}
+{"time":"2024-11-09T14:28:46.2229369+07:00","level":"INFO","msg":"handleInformInit: received","streamId":"zglwlw1w","id":"127.0.0.1:62666"}
+{"time":"2024-11-09T14:28:46.382595+07:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"zglwlw1w","id":"127.0.0.1:62666"}
