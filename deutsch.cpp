@@ -1,17 +1,14 @@
 #include <iostream>
 #include "deutsch.hpp"
 #define ganzzahl lang lang
-
 mit Namensraum norm;
-
-konst ganzzahl MOD = eineMilliardesieben;
 
 leer matrixMultipliziere(ganzzahl A[zwei][zwei], ganzzahl B[zwei][zwei]) {
     ganzzahl ergebnis[zwei][zwei];
-    ergebnis[null][null] = (A[null][null] * B[null][null] + A[null][ein] * B[ein][null]) % MOD;
-    ergebnis[null][ein] = (A[null][null] * B[null][ein] + A[null][ein] * B[ein][ein]) % MOD;
-    ergebnis[ein][null] = (A[ein][null] * B[null][null] + A[ein][ein] * B[ein][null]) % MOD;
-    ergebnis[ein][ein] = (A[ein][null] * B[null][ein] + A[ein][ein] * B[ein][ein]) % MOD;
+    ergebnis[null][null] = (A[null][null] * B[null][null] + A[null][ein] * B[ein][null]) % eineMilliardesieben;
+    ergebnis[null][ein] = (A[null][null] * B[null][ein] + A[null][ein] * B[ein][ein]) % eineMilliardesieben;
+    ergebnis[ein][null] = (A[ein][null] * B[null][null] + A[ein][ein] * B[ein][null]) % eineMilliardesieben;
+    ergebnis[ein][ein] = (A[ein][null] * B[null][ein] + A[ein][ein] * B[ein][ein]) % eineMilliardesieben;
     fuer (ganzzahl i = null; i < zwei; i++) {
         fuer (ganzzahl j = null; j < zwei; j++) {
             A[i][j] = ergebnis[i][j];
